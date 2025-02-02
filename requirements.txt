@@ -1,0 +1,5 @@
+--upgrade pip
+kokoro
+soundfile
+ipython
+simpleaudio
