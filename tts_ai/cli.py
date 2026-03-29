@@ -23,7 +23,7 @@ from .text import normalize_text
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
-        description="Generate speech from text with Kokoro ONNX."
+        description="Generate local speech from text with Kokoro ONNX."
     )
     parser.add_argument("--input", type=Path, default=DEFAULT_INPUT_PATH, help="Input text file.")
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT_PATH, help="Output WAV file.")

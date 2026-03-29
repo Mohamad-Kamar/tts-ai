@@ -1,1 +1,1 @@
-"""Small Kokoro-based text-to-speech toolkit."""
+"""Small local Kokoro-based text-to-speech toolkit."""

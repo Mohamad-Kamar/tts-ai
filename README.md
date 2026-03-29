@@ -1,6 +1,6 @@
-# tts-ai
+# tts-local
 
-Small Python CLI for turning text into a local speech file with Kokoro.
+`tts-local` is a small Python CLI for turning text into a local speech file with Kokoro.
 
 ## What It Does
 

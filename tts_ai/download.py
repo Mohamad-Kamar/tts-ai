@@ -22,7 +22,7 @@ def _ensure_file(path: Path, url: str, refresh: bool) -> None:
         return
 
     path.parent.mkdir(parents=True, exist_ok=True)
-    request = Request(url, headers={"User-Agent": "tts-ai/1.0"})
+    request = Request(url, headers={"User-Agent": "tts-local/1.0"})
     temp_path = path.with_suffix(path.suffix + ".part")
     context = ssl.create_default_context(cafile=certifi.where())
 
